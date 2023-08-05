@@ -105,8 +105,8 @@ namespace WindowsClass
 
         private void btnDisplay_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Employee Id:"+txtEmpId.Text+" \n"+"Employee Name:"+txtEmployeeName.Text+"\n "+"Department"+cmbDepartment.Text+"\n "+"Basic Salary"+
-                txtBasic.Text+"\n"+"Gross Salary"+txtGross.Text);
+            MessageBox.Show("Employee Id:"+txtEmpId.Text+" \n"+"Employee Name:"+txtEmployeeName.Text+"\n "+"Department:"+cmbDepartment.Text+"\n"+"Basic Salary:"+
+                txtBasic.Text+"\n"+"Gross Salary:"+txtGross.Text);
         }
     }
 }
